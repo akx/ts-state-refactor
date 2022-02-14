@@ -1,0 +1,34 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font: 14pt Garamond, Georgia, serif;
+}
+
+body, #root {
+    display: flex;
+}
+
+#root {
+    flex: 1;
+}
+
+#root > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    flex: 1;
+    margin: .5em;
+    padding: .5em;
+}
+
+label {
+    padding: 1em;
+    text-align: center;
+    font-style: italic;
+}
